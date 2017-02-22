@@ -1,3 +1,77 @@
 body {
-  background-color: goldenrod;
+  background-color: navajowhite;
+}
+
+.btn {
+  background: #191b1c;
+  background-image: -webkit-linear-gradient(top, #191b1c, #cf0011);
+  background-image: -moz-linear-gradient(top, #191b1c, #cf0011);
+  background-image: -ms-linear-gradient(top, #191b1c, #cf0011);
+  background-image: -o-linear-gradient(top, #191b1c, #cf0011);
+  background-image: linear-gradient(to bottom, #191b1c, #cf0011);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Arial;
+  color: #c724c7;
+  font-size: 29px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #fafafa;
+  background-image: -webkit-linear-gradient(top, #fafafa, #d3d934);
+  background-image: -moz-linear-gradient(top, #fafafa, #d3d934);
+  background-image: -ms-linear-gradient(top, #fafafa, #d3d934);
+  background-image: -o-linear-gradient(top, #fafafa, #d3d934);
+  background-image: linear-gradient(to bottom, #fafafa, #d3d934);
+  text-decoration: none;
+}
+
+.btn2 {
+  background: #ff00e1;
+  background-image: -webkit-linear-gradient(top, #ff00e1, #ccdb00);
+  background-image: -moz-linear-gradient(top, #ff00e1, #ccdb00);
+  background-image: -ms-linear-gradient(top, #ff00e1, #ccdb00);
+  background-image: -o-linear-gradient(top, #ff00e1, #ccdb00);
+  background-image: linear-gradient(to bottom, #ff00e1, #ccdb00);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 60px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn2:hover {
+  background: #c2c2c2;
+  background-image: -webkit-linear-gradient(top, #c2c2c2, #25d940);
+  background-image: -moz-linear-gradient(top, #c2c2c2, #25d940);
+  background-image: -ms-linear-gradient(top, #c2c2c2, #25d940);
+  background-image: -o-linear-gradient(top, #c2c2c2, #25d940);
+  background-image: linear-gradient(to bottom, #c2c2c2, #25d940);
+  text-decoration: none;
+}
+
+.planetBox {
+  background-color: lavender;
+  border: 1px solid teal;
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+}
+
+.planetName {
+  color: tomato;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  position: absolute;
+  margin-top: 128px;
+  width: inherit;
 }
