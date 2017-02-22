@@ -64,6 +64,7 @@ body {
   height: 300px;
   width: 300px;
   margin: 20px;
+  border-radius: 30px;
 }
 
 .planetName {
@@ -74,4 +75,13 @@ body {
   position: absolute;
   margin-top: 128px;
   width: inherit;
+}
+
+.planetImage {
+  height: 300px;
+  width: 300px;
+  border-radius: 30px;
+}
+.hidden {
+  display: none;
 }
